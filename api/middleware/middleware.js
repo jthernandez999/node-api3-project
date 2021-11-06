@@ -54,7 +54,7 @@ function validatePost(req, res, next) {
     req.text = text.trim()
     next()
   }
-  next()
+  // next()
 }
 
 // do not forget to expose these functions to other modules
